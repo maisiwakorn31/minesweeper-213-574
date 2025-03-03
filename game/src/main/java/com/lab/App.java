@@ -16,6 +16,7 @@ public class App extends Application {
 
         VBox root = new VBox(10, timerText, grid);
         Scene scene = new Scene(root, 500, 550);
+        
 
         primaryStage.setTitle("Minesweeper Game");
         primaryStage.setScene(scene);
